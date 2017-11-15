@@ -38,6 +38,12 @@
       <version>3.1.0</version>
     </dependency>
 
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>jstl</artifactId>
+      <version>1.2</version>
+    </dependency>
+
     <!--json-lib-->
     <dependency>
       <groupId>net.sf.json-lib</groupId>
@@ -52,11 +58,7 @@
       <artifactId>httpclient</artifactId>
       <version>4.5.2</version>
     </dependency>
-    <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>jstl</artifactId>
-      <version>1.2</version>
-    </dependency>
+
     <!--<dependency>
       <groupId>com.wechat</groupId>
       <artifactId>WeChat</artifactId>
