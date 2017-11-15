@@ -7,7 +7,7 @@ package com.weixin.menu;
  *
  */
 public class ViewButton extends Button{
-    //viewÀàÐÍ²Ëµ¥url
+    //view类型菜单url
     private String url;
 
     public String getUrl() {

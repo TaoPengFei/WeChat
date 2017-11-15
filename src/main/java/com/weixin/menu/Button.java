@@ -7,11 +7,11 @@ package com.weixin.menu;
  *
  */
 public class Button {
-    //꽉데잚謹
+    //菜单类型
     private String type;
-    //꽉데츰냔
+    //菜单名称
     private String name;
-    //랗섬꽉데
+    //二级菜单
     private Button[] sub_button;
     public String getType() {
         return type;

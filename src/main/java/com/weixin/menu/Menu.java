@@ -7,7 +7,7 @@ package com.weixin.menu;
  *
  */
 public class Menu {
-    //Ò»¼¶²Ëµ¥
+    //一级菜单
     private Button[] button;
 
     public Button[] getButton() {

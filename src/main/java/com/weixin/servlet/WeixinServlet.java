@@ -61,7 +61,7 @@ public class WeixinServlet extends HttpServlet{
 
             }else if(MessageUtil.MSGTYPE_NEWS.equals(msgType)){//图文消失
                 respone = MessageUtil.initNewsMessage(toUser, fromUser);
-            } else if(MessageUtil.MSGTYPE_EVENT.equals(msgType)){//如果是事件
+            }else if(MessageUtil.MSGTYPE_EVENT.equals(msgType)){//如果是事件
                 String event = message.get("Event");//事件类型
                 //订阅
                 if(MessageUtil.EVENT_SUBSCRIBE.equals(event)){

@@ -7,7 +7,7 @@ package com.weixin.menu;
  *
  */
 public class ClickButton extends Button{
-    //ClickÀàÐÍ²Ëµ¥key
+    //Click类型菜单key
     private String key;
 
     public String getKey() {

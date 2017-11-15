@@ -12,7 +12,6 @@ public class NewsMessage extends BaseMessage{
     private int ArticleCount;
     private List<News> Articles;
 
-
     public int getArticleCount() {
         return ArticleCount;
     }

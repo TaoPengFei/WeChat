@@ -202,8 +202,8 @@ public class MessageUtil {
         music.setThumbMediaId("C-4vT3pbBIzqwcWuasEzUV0HUH0vNc8EN65VOAOqYY2Y9g7EbyznIZdOVPzbdxj2");
         music.setTitle("任然 - 疑心病");
         music.setDescription("fddffdfffddfddf");
-        music.setMusicUrl("http://taopengfeijava.duapp.com/WeChat//yixin.mp3");
-        music.setHQMusicUrl("http://taopengfeijava.duapp.com/WeChat//yixin.mp3");
+        music.setMusicUrl("http://taopengfeijava.duapp.com/WeChat/videos/yixin.mp3");
+        music.setHQMusicUrl("http://taopengfeijava.duapp.com/WeChat/videos/yixin.mp3");
 
         MusicMessage musicMessage = new MusicMessage();
         musicMessage.setFromUserName(toUserName);
