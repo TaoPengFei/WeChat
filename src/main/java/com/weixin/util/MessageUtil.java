@@ -106,12 +106,12 @@ public class MessageUtil {
 
         StringBuffer sb = new StringBuffer();
         if("1".equals(word)){
-            sb.append("QQ: 843571091\n")
-                    .append("微信: twx843571091\n")
-                    .append("手机号码: 18051292045\n")
-                    .append("email: twx843571091@gmail.com");
+            sb.append("QQ: 302665611\n")
+                    .append("微信: TPF12407011231992\n")
+                    .append("手机号码: 15821623027\n")
+                    .append("email: taopengfei_shw@sina.cn");
         }else if("2".equals(word)){
-            sb.append("服务器:108.61.183.107\n")
+            sb.append("服务器:http://taopengfeijava.duapp.com/WeChat/\n")
                     .append("密码：nexusqaz\n")
                     .append("端口号：4000\n")
                     .append("加密方式：aes-256-cfb");
@@ -144,7 +144,7 @@ public class MessageUtil {
         News news = new News();
         news.setTitle("甲铁城的卡巴内瑞");
         news.setDescription("本作是一部以蒸汽机发达的岛国“日之本”为舞台的蒸汽朋克生存动作剧，作品主要描写了拥有钢铁心脏的僵尸=“卡巴内”与乘上装甲蒸汽机车“甲铁城”的少年少女的存亡之战。该作标题中的“卡巴内瑞”指的是介于“卡巴内”与人类之间的存在。");
-        news.setPicUrl("http://teaegg.ngrok.cc/Weixin/image/jiatie.png");
+        news.setPicUrl("http://taopengfeijava.duapp.com/WeChat/image/jiatie.png");
         news.setUrl("http://bangumi.bilibili.com/anime/3494/");
 
         newsList.add(news);
@@ -152,7 +152,7 @@ public class MessageUtil {
         News news1 = new News();
         news1.setTitle("异国迷宫的十字路口");
         news1.setDescription("十九世纪后半，欧洲正值流行东洋文化的时代。 单身渡海来到法国的日本少女·汤音，在巴黎工商业区中的工艺品店“国王的招牌店”开始了自己的工作。 这是汤音通过和店主克洛德的交流，虽然对异国文化充满困惑、但也努力适应生活的旅居物语。");
-        news1.setPicUrl("http://teaegg.ngrok.cc/Weixin/image/tang1.jpg");
+        news1.setPicUrl("http://taopengfeijava.duapp.com/WeChat/image/tang1.jpg");
         news1.setUrl("http://bangumi.bilibili.com/anime/3433/");
 
         newsList.add(news1);
@@ -202,8 +202,8 @@ public class MessageUtil {
         music.setThumbMediaId("C-4vT3pbBIzqwcWuasEzUV0HUH0vNc8EN65VOAOqYY2Y9g7EbyznIZdOVPzbdxj2");
         music.setTitle("任然 - 疑心病");
         music.setDescription("fddffdfffddfddf");
-        music.setMusicUrl("http://teaegg.ngrok.cc/Weixin/resource/yixin.mp3");
-        music.setHQMusicUrl("http://teaegg.ngrok.cc/Weixin/resource/yixin.mp3");
+        music.setMusicUrl("http://taopengfeijava.duapp.com/WeChat//yixin.mp3");
+        music.setHQMusicUrl("http://taopengfeijava.duapp.com/WeChat//yixin.mp3");
 
         MusicMessage musicMessage = new MusicMessage();
         musicMessage.setFromUserName(toUserName);
