@@ -38,11 +38,11 @@ import net.sf.json.JSONObject;
 public class WeixinUtil {
     /*private static final String APPID = "wxcd780c33ba67a077";
     private static final String APPSECRET = "970c4f5f2f3eb78433bbc0772d05c354";*/
-    /*private static final String APPID = "wxc9a421cb4c1b6bd0";
-    private static final String APPSECRET = "67afbf37fdc138ad25374288ae206bd8";*/
+    private static final String APPID = "wxc9a421cb4c1b6bd0";
+    private static final String APPSECRET = "67afbf37fdc138ad25374288ae206bd8";
 
-    private static final String APPID = "wx929901e3e44556d6";
-    private static final String APPSECRET = "d638f95c664c90147ca9d12833d2f7d2";
+    /*private static final String APPID = "wx929901e3e44556d6";
+    private static final String APPSECRET = "d638f95c664c90147ca9d12833d2f7d2";*/
 
     private static final String ACCESS_TOKEN_URL = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=APPSECRET";
     //private static final String ACCESS_TOKEN_URL = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&corpid=APPID&corpsecret=APPSECRET";
@@ -209,13 +209,13 @@ public class WeixinUtil {
     public static Menu initMenu(){
         Menu menu = new Menu();
         ClickButton button11 = new ClickButton();
-        button11.setName("click菜单");
+        button11.setName("游玩项目");
         button11.setType("click");
         button11.setKey("11");
 
         ViewButton button21 = new ViewButton();
         //button21.setName("view菜单");
-        button21.setName("领取会员卡");
+        button21.setName("会员绑定");
         button21.setType("view");
         //button21.setUrl("http://www.imooc.com");
         //button21.setUrl("https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=gQHw7zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyakRhTEVhWmphVlQxVG8tS05yNGoAAgRYSw1aAwSAM_EB");
@@ -232,10 +232,11 @@ public class WeixinUtil {
         button32.setKey("32");
 
         Button button = new Button();
-        button.setName("菜单");
-        button.setSub_button(new Button[]{button31,button32});
+        button.setName("会员服务");
+        button.setSub_button(new Button[]{button21,button31,button32});
 
-        menu.setButton(new Button[]{button11,button21,button});
+        //menu.setButton(new Button[]{button11,button21,button});
+        menu.setButton(new Button[]{button11,button});
         return menu;
     }
 
