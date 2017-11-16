@@ -8,3 +8,9 @@
 5、 git add -A   <br>
 6、 git commit -m 'xxxxx'    <br>
 7、 git push     <br>
+
+## 公司
+1、 http://182.254.208.205/WeChat/index  <br>
+2、 myshiyun     <br>
+3、 appId： wx929901e3e44556d6   <br>
+4、appsecret: 886298015367399c3c1a72fd4dcb87e8    <br>

@@ -76,7 +76,7 @@ public class WeixinServlet extends HttpServlet{
                     respone = MessageUtil.initText(toUser, fromUser, key);
                 }else if(MessageUtil.EVENT_LOCATION.equals(event)){
                     String label = message.get("SendLocationInfo");
-                    System.out.println("SendLocationInfo:"+label);
+//                    System.out.println("SendLocationInfo:"+label);
                     respone = MessageUtil.initText(toUser, fromUser, label);
                 }
             }
