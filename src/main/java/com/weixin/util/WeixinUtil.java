@@ -213,6 +213,11 @@ public class WeixinUtil {
         button11.setType("click");
         button11.setKey("11");
 
+        ViewButton button41 = new ViewButton();
+        button41.setName("会员激活");
+        button41.setType("view");
+        button41.setUrl("http://taopengfeijava.duapp.com/WeChat/GenerateCard.jsp");
+
         ViewButton button21 = new ViewButton();
         //button21.setName("view菜单");
         button21.setName("会员绑定");
@@ -233,7 +238,7 @@ public class WeixinUtil {
 
         Button button = new Button();
         button.setName("会员服务");
-        button.setSub_button(new Button[]{button21,button31,button32});
+        button.setSub_button(new Button[]{button21,button41,button31,button32});
 
         //menu.setButton(new Button[]{button11,button21,button});
         menu.setButton(new Button[]{button11,button});

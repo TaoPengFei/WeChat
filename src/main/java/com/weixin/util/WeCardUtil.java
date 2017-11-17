@@ -23,7 +23,7 @@ public class WeCardUtil {
     private static final String JSAPIURL="https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=";
 
     //本地的菜单配置的URL  换地需要改
-    private static final String MENULINKURL = "http://127.0.0.1:8080/WeChatTest/wechat/TestConn.jsp";
+    private static final String MENULINKURL = "http://taopengfeijava.duapp.com/WeChat/GenerateCard.jsp";
     /**
      * 获取ACCESSTOKEN
      * @return
@@ -39,7 +39,7 @@ public class WeCardUtil {
      * 获取api_ticket  添加会员卡时使用
      */
     public static String GetApiTicket(String ACCESS_TOKEN) {
-        String APITicketURL = APITICKETURL+ACCESS_TOKEN+"&&type=wx_card";
+        String APITicketURL = APITICKETURL+ACCESS_TOKEN+"&type=wx_card";
         String JsonApiTicket = HttpTool.httpsRequest(APITicketURL, "GET", "");
         JSONObject jsonObject =JSONObject.fromObject(JsonApiTicket);
         String apiticket = (String) jsonObject.get("ticket");
