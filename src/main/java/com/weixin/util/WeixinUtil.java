@@ -38,11 +38,11 @@ import net.sf.json.JSONObject;
 public class WeixinUtil {
     /*private static final String APPID = "wxcd780c33ba67a077";
     private static final String APPSECRET = "970c4f5f2f3eb78433bbc0772d05c354";*/
-    private static final String APPID = "wxc9a421cb4c1b6bd0";
-    private static final String APPSECRET = "67afbf37fdc138ad25374288ae206bd8";
+    /*private static final String APPID = "wxc9a421cb4c1b6bd0";
+    private static final String APPSECRET = "67afbf37fdc138ad25374288ae206bd8";*/
 
-    /*private static final String APPID = "wx929901e3e44556d6";
-    private static final String APPSECRET = "d638f95c664c90147ca9d12833d2f7d2";*/
+    private static final String APPID = "wx929901e3e44556d6";
+    private static final String APPSECRET = "d638f95c664c90147ca9d12833d2f7d2";
 
     private static final String ACCESS_TOKEN_URL = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=APPSECRET";
     //private static final String ACCESS_TOKEN_URL = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&corpid=APPID&corpsecret=APPSECRET";
