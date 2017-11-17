@@ -7,7 +7,9 @@ package com.weixin.po;
  *
  */
 public class AccessToken {
+    // 接口访问凭证
     private String token;
+    // 凭证有效期，单位：秒
     private int expiresIn;
     public String getToken() {
         return token;
