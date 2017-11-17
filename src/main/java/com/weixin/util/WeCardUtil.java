@@ -23,7 +23,8 @@ public class WeCardUtil {
     private static final String JSAPIURL="https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=";
 
     //本地的菜单配置的URL  换地需要改
-    private static final String MENULINKURL = "http://taopengfeijava.duapp.com/WeChat/GenerateCard.jsp";
+    //private static final String MENULINKURL = "http://taopengfeijava.duapp.com/WeChat/GenerateCard.jsp";
+    private static final String MENULINKURL = "http://taopengfeijava.duapp.com/WeChat";
     /**
      * 获取ACCESSTOKEN
      * @return
